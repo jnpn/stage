@@ -2,7 +2,7 @@
 //
 // interval(N,A,B) renvoie true is A < N < B sinon false
 
-function interval(n,a,b) { return -1; }
+function intervalle(n,a,b) { return -1; }
 
 // fonction factorielle
 //
