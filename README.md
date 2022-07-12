@@ -1,0 +1,2 @@
+# stage
+static site
