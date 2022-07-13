@@ -10,3 +10,10 @@ function intervalle(n,a,b) { return -1; }
 //               nombre * factorielle(nombre-1)
 
 function factorielle(nombre) { return -1; }
+
+
+ function getValue(){
+  var input = document.getElementById("input").value;
+  console.log(input);
+  alert(input);
+}
