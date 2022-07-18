@@ -34,7 +34,30 @@ input{
 	margin-top: 20%;
 	border-radius: 5px;
 	border: none;
-
 	
+}
+
+
+svg{
+	width: 55px;
+	height: 55px;
+}
+.logo path{
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim 3s  forwards;
+}
+
+svg g {
+
+	fill-opacity: 0;
+}
+
+
+@keyframes anim{
+
+	to{
+		stroke-dashoffset: 0 ;
+	}
 }
 

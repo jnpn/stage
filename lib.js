@@ -17,3 +17,9 @@ function factorielle(nombre) { return -1; }
   console.log(input);
   alert(input);
 }
+
+function analyse(){
+	var input = document.getElementById("input").value;
+	var list = input.split(' ');
+	list.forEach(function(mot){console.log(mot,1)})
+}
