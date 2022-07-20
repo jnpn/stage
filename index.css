@@ -6,6 +6,10 @@ html{
 
 }
 
+body {
+    margin: 0;
+}
+
 
 .flex{
         /*display: flex;*/
@@ -215,4 +219,9 @@ svg .cls-4:hover{
 }
 .text-8:hover{
 	fill: #CFCFCF;
+}
+
+header {
+    padding: 0.6rem;
+    background-color: lightslategray;
 }
