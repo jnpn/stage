@@ -13,7 +13,9 @@ html{
 	background-color: green;
 	width: 50%;
 	margin-left: 25%;
-	height: 50%;
+	/*height: 50%;*/
+	padding-bottom: 10%;
+	padding-top: 0%;
 	margin-top: 15%;
 	border-radius: 5px;
 }
@@ -146,8 +148,7 @@ svg .cls-4:hover{
 .text-1{
 	stroke-dasharray: 300;
 	stroke-dashoffset: 300;
-	animation-iteration-count: infinite;
-	animation: color 7s  infinite alternate;
+	animation: color 7s  forwards;
 	
 	
 }
@@ -160,20 +161,17 @@ svg .cls-4:hover{
 .text-3{
 	stroke-dasharray: 300;
 	stroke-dashoffset: 300;
-	animation-iteration-count: infinite;
-	animation: color 3s  infinite alternate;
+	animation: color 3s  forwards;
 }
 .text-4{
 	stroke-dasharray: 300;
 	stroke-dashoffset: 300;
-	animation-iteration-count: infinite;
-	animation: color 4s  infinite alternate;
+	animation: color 4s  forwards;
 }
 .text-5{
 	stroke-dasharray: 300;
 	stroke-dashoffset: 300;
-	animation-iteration-count: infinite;
-	animation: color 5s  infinite alternate;
+	animation: color 5s  forwards;
 }
 /*.text-6{
 	stroke-dasharray: 300;
