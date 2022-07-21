@@ -7,6 +7,14 @@ html{
 			 
 }
 
+:root{
+	--background:  #888;
+	--hover:  #CFCFCF ;
+	--opacity: 0.5;
+	--animation-stroke: color 3s ease forwards;
+	
+}
+
 
 .flex{
 	/*display: flex;*/
@@ -53,36 +61,36 @@ input{
 
 svg .cls-1 {
 
-	fill-opacity: 0.5;
-	animation: color 2.5s ease forwards;
+	fill-opacity: var(--opacity);
+	animation: var(--animation-stroke);
 	animation-delay: 1s;
 }
 
 svg .cls-2 {
 
-	fill-opacity: 0.5;
-	animation: color 3s ease forwards;
+	fill-opacity: var(--opacity);
+	animation: var(--animation-stroke);
 	animation-delay: 2s;
 }
 
 svg .cls-3 {
 
-	fill-opacity: 0.5;
-	animation: color 3s ease forwards;
+	fill-opacity: var(--opacity);
+	animation: var(--animation-stroke);
 	animation-delay: 3s;
 }
 
 svg .cls-4 {
 
-	fill-opacity: 0.5;
-	animation: color 3s ease forwards;
+	fill-opacity: var(--opacity);
+	animation: var(--animation-stroke);
 	animation-delay: 4s;
 }
 
 svg .cls-5 {
 
-	fill-opacity: 0.5;
-	animation: color 3s ease forwards;
+	fill-opacity: var(--opacity);
+	animation: var(--animation-stroke);
 	animation-delay: 0s;
 
 }
@@ -99,27 +107,28 @@ svg .cls-5 {
 svg .cls-5:hover{
 	 animation: rotate 2s infinite linear ;
   	transform-origin: center;
-	fill: #888;
+	fill: var(--background);
 
 }
 
 svg .cls-3:hover{
-	fill: #888;
+	fill: var(--background);
+
 
 }
 
 svg .cls-2:hover{
-	fill: #888;
+	fill: var(--background);
 
 }
 
 svg .cls-1:hover{
-	fill: #888;
+	fill: var(--background);
 
 }
 
 svg .cls-4:hover{
-	fill: #888;
+	fill: var(--background);
 
 }
 
@@ -193,28 +202,27 @@ svg .cls-4:hover{
 }*/
 
 .text-1:hover{
-	fill:#CFCFCF ;
+	fill:var(--hover) ;
 }
 .text-2:hover{
-	fill: #CFCFCF;
+	fill: var(--hover);
 }
 .text-3:hover{
-	fill: #CFCFCF;
+	fill:var(--hover);
 }
 .text-4:hover{
-	fill: #CFCFCF;
+	fill: var(--hover);
 }
 .text-5:hover{
-	fill: #CFCFCF;
+	fill: var(--hover);
 }
 .text-6:hover{
-	fill: #CFCFCF;
+	fill:var(--hover);
 }
 .text-7:hover{
-	fill: #CFCFCF;
-}
-.text-8:hover{
-	fill: #CFCFCF;
+	fill: #var(--hover);
+}.text-8:hover{
+	fill: var(--hover);
 }
 
 
